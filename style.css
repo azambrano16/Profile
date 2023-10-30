@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,700;0,900;1,300&family=PT+Sans&display=swap');
+@import url("https://use.fontawesome.com/releases/v6.1.2/css/all.css");
+
+body {
+  background-color: #f2e9e4;
+  font-family:'Merriweather';
+}
+
+h1 {
+  font-weight: 900;
+}
+
+h2 {
+  font-style: bold;
+  font-weight: 700;
+}
+
+p {
+  font-weight: 300;
+  font-style: italic;
+}
+
+img {
+  width: 100px;
+  border-radius: 50%;
+}
+
+a {
+  font-family: PT Sans;
+  font-weight: 600;
+  font-style: regular;
+  text-decoration: none;
+  color: #d5bdaf;
+  padding-bottom: 50px;
+}
+
+a:hover {
+  color : #4a4e69
+}
+
+.container {
+  width: 600px;
+  margin: 0 auto;
+  padding: 50px
+}
+
+.card {
+  background-color: #f5ebe0;
+  padding: 40px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+  border-radius: 4px;
+  margin: 20px 0px;
+  text-align: center;
+}
+
+#link-button {
+  background-color: #d6ccc2;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 4px;
+}
+
+#link-button:hover {
+  color: #4a4e69
+}
+
+li {
+  font-size: xx-large;
+  color: #9a8c98;
+}
+
+li:hover{
+  color: #4a4e69
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline li {
+  display: inline;
+  padding: 10px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
